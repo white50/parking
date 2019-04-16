@@ -1,3 +1,0 @@
-[scrapy]
-settings = parking_min.settings
-
