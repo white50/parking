@@ -3,10 +3,10 @@ import re
 
 from scrapy.spiders import CrawlSpider, Rule 
 from scrapy.linkextractors import LinkExtractor
-from parking_min.items import Headline 
+from parking.items import Headline 
 
-class ParkingMinClawlSpider(CrawlSpider):
-    name = 'parking_min_clawl'
+class ParkingClawlSpider(CrawlSpider):
+    name = 'parking_clawl'
     allowed_domains = ['kakaku.com']
     start_urls = ['https://kakaku.com/item/K0000368745/']
     
