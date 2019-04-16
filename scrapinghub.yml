@@ -1,0 +1,7 @@
+#project: 385805
+
+projects:
+  default: 385805
+
+requirements:
+  file: requirements.txt
